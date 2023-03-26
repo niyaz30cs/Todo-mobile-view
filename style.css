@@ -263,8 +263,9 @@
     .container
     {
         background-color: #F7F7F7;
-        width: 480px;
-        padding-bottom: 200px;
+        display:flex;
+        flex-direction:column;
+        
     }
     .head{
         position: relative;
